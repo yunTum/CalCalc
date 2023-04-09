@@ -7,7 +7,7 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useRouter } from 'next/router';
-import { auth } from '../firebase';
+import { auth } from '../firebaseConfig';
 
 const Signin: NextPage = () => {
   const router = useRouter();

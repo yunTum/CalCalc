@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { getAuth, onAuthStateChanged, User } from 'firebase/auth';
 import { useRouter } from 'next/router';
 import { NextPage } from 'next';
-import { auth } from '../firebase';
+import { auth } from '../firebaseConfig';
 
 const MyPage: NextPage = () => {
   const router = useRouter();
